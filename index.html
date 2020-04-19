@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Fontes -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Titulo e Metas para descrição -->
+    <title>HENRIQUEWEB</title>
+    <meta charset="utf-8" />
+    <meta
+      property="og:image"
+      content="https://henriqueweb.neocities.org/imagens/logo3.png"
+    />
+    <meta property="og:title" content="Procurando Web designer?" />
+    <meta
+      property="og:description"
+      content="Crie seu Site a gente a partir de 300 reais"
+    />
+    <!-- CSS e JS -->
+    <link rel="stylesheet" href="css\css1.css" />
+    <link rel="stylesheet" href="css\css2.css" />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width: 0px) and (max-width: 750px)"
+      href="css\mobile1.css"
+    />
+    <link
+      rel="stylesheet"
+      media="only screen and (min-width: 0px) and (max-width: 750px)"
+      href="css\mobile2.css"
+    />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+  <body>
+    <div class="titulo1">
+      <div class="barraantesdotitulo"></div>
+      <div class="barratitulo1">
+        <div class="barratitulo1m">
+          <div class="foto1">
+            <img src="imagens\foto1.png" />
+          </div>
+          <p class="titulotexto1">Henri Web</p>
+          <div class="titulobarradireita">
+            <input id="test" type="checkbox" onclick="doDemo(this);" />
+            <label class="test2" for="test">
+              <div class="titulotexto">
+                <p class="titulotexto2">Serviços</p>
+              </div>
+            </label>
+            <a>
+              <div class="titulotexto">
+                <p class="titulotexto3">Sobre nos</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- barratitulo1m   -->
+      </div>
+      <!-- barratitulo1   -->
+    </div>
+    <!-- titulo1   -->
+    <div class="conteudo1">
+      <div class="textoresponsivo">
+        <p>Sites responsivos com preço acessível</p>
+      </div>
+      <!-- textoresponsivo -->
+      <div class="responsivo">
+        <img style="height: 100%;" src="imagens\responsivo.png" />
+      </div>
+      <!-- responsivo -->
+    </div>
+    <div class="conteudo2">
+      <div class="conteudo2barra"></div>
+      <div class="conteudo2m">
+        <div class="textom1">
+          <div class="textof1">
+            <p class="texto1">
+              Crie seu site com a gente <br />
+              a partir de 300 reais
+            </p>
+          </div>
+          <!-- textof1   -->
+        </div>
+        <!-- textom1   -->
+        <div class="contatom">
+          <div class="contato">
+            <div class="whats">
+              <p>(61) 98634-3318</p>
+              <img src="imagens\whats.png" />
+            </div>
+            <!-- whats   -->
+            <a target="_blank" href="https://www.facebook.com/henrique.web.737">
+              <img class="face" src="imagens\face.png" />
+            </a>
+            <a target="_blank" href="https://www.instagram.com/webhenrique/">
+              <img
+                class="insta"
+                src="imagens\insta.png"
+                title="ainda sem Insta"
+              />
+            </a>
+            <div class="curriculo">
+              <div>
+                <a target="_blank" href="docs\Curriculo.pdf">
+                  <img src="imagens\curriculo2.png" />
+                </a>
+              </div>
+              <!-- vazia   -->
+            </div>
+            <!-- Curriculo  -->
+          </div>
+          <!-- contato  -->
+        </div>
+        <!-- contatom  -->
+      </div>
+      <!-- conteudo2m  -->
+    </div>
+    <!-- conteudo2  -->
+    <div class="conteudofundo"></div>
+    <!-- conteudofundo  -->
+    <nav id="nav">
+      <div id="x">
+        <a href="#" id="test3" onclick="clearDemo(this);">x</a>
+      </div>
+      <div class="linktextos">
+        <a href="teste\index.html">
+          <p class="link">Barbearia Brandão</p>
+        </a>
+      </div>
+    </nav>
+    <script>
+      function doDemo(input) {
+        var nav = document.getElementById("nav");
+        nav.style.display = "block";
+      }
+      function clearDemo(input) {
+        var nav = document.getElementById("nav");
+        nav.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
