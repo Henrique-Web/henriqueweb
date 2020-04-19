@@ -1,0 +1,71 @@
+.titulo1 {
+}
+.barratitulo1 {
+  /* display: none; */
+}
+.curriculo {
+}
+.logo1a {
+  margin: auto 0px auto 6.2vw;
+}
+.logo1 {
+  width: 98px;
+}
+.contatom {
+}
+.contato {
+  display: block;
+  width: 48vw;
+  float: right;
+  margin-top: 25px;
+}
+.whats {
+  display: flex;
+  white-space: nowrap;
+}
+.contato img {
+}
+.whats p {
+  margin: 7px 7px 0px 0px;
+  font-size: 5vw;
+}
+.conteudo1 {
+  background-size: cover;
+}
+.textoresponsivo {
+  top: 163px;
+}
+.textoresponsivo p {
+  font-size: 16pt;
+}
+.responsivo {
+  height: 29%;
+}
+.textof1 {
+  width: 48vw;
+  height: 8vh;
+  white-space: nowrap;
+}
+.texto1 {
+  font-size: 4vw;
+}
+.conteudo2 {
+  display: inline-flex;
+}
+.conteudo2m {
+  display: block;
+}
+.textof2 {
+}
+.texto2 {
+}
+.servicos {
+}
+figure.pcentro figcaption {
+}
+.pcentro {
+}
+.pcentroimg {
+}
+.pcentroimg:hover {
+}

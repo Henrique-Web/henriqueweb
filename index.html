@@ -47,8 +47,8 @@
           </div>
           <p class="titulotexto1">Henri Web</p>
           <div class="titulobarradireita">
-            <input id="test" type="checkbox" onclick="doDemo(this);" />
-            <label class="test2" for="test">
+            <input id="test" type="checkbox" />
+            <label class="nav test2" for="test">
               <div class="titulotexto">
                 <p class="titulotexto2">Serviços</p>
               </div>
@@ -124,9 +124,10 @@
     <!-- conteudo2  -->
     <div class="conteudofundo"></div>
     <!-- conteudofundo  -->
-    <nav id="nav">
+    <!-- Menu -->
+    <nav class="nav nav1">
       <div id="x">
-        <a href="#" id="test3" onclick="clearDemo(this);">x</a>
+        <a href="#" id="test3">x</a>
       </div>
       <div class="linktextos">
         <a href="teste\index.html">
@@ -135,14 +136,17 @@
       </div>
     </nav>
     <script>
-      function doDemo(input) {
-        var nav = document.getElementById("nav");
-        nav.style.display = "block";
-      }
-      function clearDemo(input) {
-        var nav = document.getElementById("nav");
-        nav.style.display = "none";
-      }
+      var nav = document.querySelector("nav");
+
+      document.addEventListener("click", function (event) {
+        if (event.target.closest("nav")) {
+          nav.classList.remove("fechado") & nav.classList.add("close");
+          console.log("abriu");
+        } else if (!event.target.closest("nav")) {
+          nav.classList.remove("close") & nav.classList.add("fechado");
+          console.log("fechou");
+        }
+      });
     </script>
   </body>
 </html>

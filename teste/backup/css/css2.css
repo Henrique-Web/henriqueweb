@@ -1,0 +1,48 @@
+.tabela2st img:hover {
+  border: 4px solid black;
+  transition: 0.5s;
+}
+.tabela1st {
+  position: absolute;
+  left: 50%;
+  top: 141px;
+  transform: translate(-50%, 0px);
+}
+.tabela2st {
+  margin: 10px;
+  width: 618px;
+  overflow: hidden;
+  float: left;
+}
+.tabela2st img {
+  width: 95%;
+  height: 95%;
+  position: relative;
+  top: 2%;
+  border: 4px solid transparent;
+  left: 2%;
+}
+.tabela2st img:hover {
+  border: 4px solid black;
+  transition: 0.5s;
+}
+.botao {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  border-radius: 5px;
+  background-color: aquamarine;
+  text-decoration: none;
+  width: 28px;
+  height: 28px;
+}
+.buttonleft {
+  margin: 309px 0px 0px -613px;
+}
+.buttonright {
+  margin: 0px 0px 0px 528px;
+}
+.botao:hover {
+  background-color: #32463f;
+}

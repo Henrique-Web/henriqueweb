@@ -1,0 +1,16 @@
+.logo1 {
+  width: 41vw;
+  max-width: 188px;
+}
+.tabela1st {
+  position: absolute;
+  left: 15%;
+  margin-left: 0px;
+  top: 141px;
+}
+.tabela2st {
+  margin: 10px;
+  width: 29vw;
+  overflow: hidden;
+  float: left;
+}
