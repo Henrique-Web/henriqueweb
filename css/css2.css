@@ -24,14 +24,14 @@
     transform: translate(0, 0);
   }
 }
-.textof1:hover,
-.textof1:focus,
-.textof1:active {
+
+.textof1:hover, .textof1:focus, .textof1:active {
   animation-name: textof1;
   animation-duration: 1.4s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
 }
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -40,14 +40,19 @@
     opacity: 1;
   }
 }
+
 .pcentroimg:hover {
   transition: 1.5s;
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
+
 /* Corte de papel */
+
 /* CURLS */
+
 /* Curl Top Left */
+
 .titulotexto:before {
   pointer-events: none;
   position: absolute;
@@ -58,14 +63,8 @@
   left: 0;
   background: white;
   /* IE9 */
-  background: linear-gradient(
-    135deg,
-    #8ea5cc 45%,
-    #aaa 50%,
-    #ccc 56%,
-    white 80%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#000000');
+  background: linear-gradient( 135deg, #8ea5cc 45%, #aaa 50%, #ccc 56%, white 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#ffffff', endColorstr='#000000');
   /*For IE7-8-9*/
   z-index: 1000;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
@@ -74,16 +73,18 @@
   -webkit-transition-property: width, height;
   transition-property: width, height;
 }
-.titulotexto:hover:before,
-.titulotexto:focus:before,
-.titulotexto:active:before {
+
+.titulotexto:hover:before, .titulotexto:focus:before, .titulotexto:active:before {
   width: 25px;
   height: 25px;
 }
+
 /* Servicos */
+
 #test {
   display: none;
 }
+
 label {
   display: flex;
   margin: auto;
@@ -91,6 +92,7 @@ label {
   margin-right: 10px;
   color: white;
 }
+
 #menu {
   z-index: 9;
   display: none;
@@ -101,7 +103,8 @@ label {
   height: 100%;
   background-color: #b9cdff36;
 }
-.nav1 {
+
+.aberto {
   z-index: 10;
   width: 182px;
   height: 100%;
@@ -110,17 +113,25 @@ label {
   right: 0px;
   background-color: #273140;
   color: blue;
-  display: none;
+  display: block;
+  transition: .40s;
+
 }
-.nav {
+
+.fechado {
   display: none;
+  transition: .40s;
+
 }
+
 .close {
   display: block;
 }
+
 .test2 {
   display: block;
 }
+
 #test3 {
   width: auto;
   height: auto;
@@ -130,11 +141,13 @@ label {
   padding: 0px 12px 5px 12px;
   border-radius: 100%;
 }
+
 #x {
   margin: 10px 0px 10px 4px;
   width: auto;
   height: auto;
 }
+
 .linktextos a {
   margin: auto;
   width: 100%;
@@ -143,9 +156,11 @@ label {
   background-color: #676767;
   border-bottom: 4px solid #000;
 }
+
 .linktextos a:hover {
   background-color: #363e44;
 }
+
 .link {
   margin: auto;
 }
