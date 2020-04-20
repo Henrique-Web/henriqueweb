@@ -12,8 +12,8 @@ a {
   text-decoration: none;
   color: white;
 }
+/* Barra-titulo1 */
 .titulo1 {
-  top: 0;
   width: 100%;
   height: auto;
   z-index: 1;
@@ -52,14 +52,20 @@ a {
   margin-right: 2vw;
   display: flex;
 }
-.titulo-barra-direita-end {
-  margin-right: 0px !important;
-}
-.titulo-barra-direita a {
+.titulo-barra-direita .pc-a {
   display: flex;
   margin: auto;
   height: 80%;
   margin-right: 10px;
+}
+.titulo-barra-direita .cel-a {
+  display: none;
+  margin: auto;
+  height: 80%;
+  margin-right: 10px;
+}
+.titulo-barra-direita-end {
+  margin-right: 0px !important;
 }
 .titulotexto {
   position: relative;
@@ -74,3 +80,4 @@ a {
 .titulotexto p {
   margin: auto;
 }
+/* Barra-titulo1-Fim */

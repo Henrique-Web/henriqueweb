@@ -1,0 +1,13 @@
+/* Barra-de-titulo */
+.titulo1 {
+}
+.barratitulo1 {
+  /* display: none; */
+}
+.titulo-barra-direita .pc-a {
+  display: none;
+}
+.titulo-barra-direita .cel-a {
+  display: flex;
+}
+/* Barra-de-titulo-Fim */
