@@ -3,6 +3,12 @@
 .barratitulo1 {
   /* display: none; */
 }
+.titulo-barra-direita .pc-a {
+  display: none;
+}
+.titulo-barra-direita .cel-a {
+  display: flex;
+}
 .curriculo {
 }
 .logo1a {

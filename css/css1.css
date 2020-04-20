@@ -1,15 +1,15 @@
 * {
   box-sizing: border-box;
 }
-a {
-  cursor: pointer;
-  text-decoration: none;
-  color: white;
-}
 body {
   margin: 0px;
   padding: 0px;
   background-color: #000514;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 .titulo1 {
   width: 100%;
@@ -18,42 +18,52 @@ body {
   position: fixed;
   overflow: hidden;
   display: block;
+  animation-name: bounceInUp;
+  animation-duration: 0.8s;
 }
-.barraantesdotitulo {
+.barra-antes-do-titulo {
   width: 100%;
   height: 10px;
   background-color: #24375f;
 }
-.barratitulo1 {
+.barra-titulo-1 {
   background-color: #8ea5ccba;
   width: 100%;
-  /* margin-right: 3%; */
   height: 69px;
-  /* border-radius: 0px 0px 31px 31px; */
-  /* margin-left: 3%; */
   animation: fadein 2s;
-  /* position: absolute; */
   display: flex;
 }
-.barratitulo1m {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  overflow: hidden;
+.foto1 {
+  height: 43px;
+  margin: auto 0px auto 2vw;
+}
+.foto1 img {
+  height: inherit;
 }
 .titulotexto1 {
   margin: auto 0px auto 12px;
   float: left;
+  color: white;
 }
-.titulobarradireita {
+.titulo-barra-direita {
   margin-left: auto;
+  margin-right: 2vw;
   display: flex;
 }
-.titulobarradireita a {
+.titulo-barra-direita .pc-a {
   display: flex;
   margin: auto;
   height: 80%;
   margin-right: 10px;
+}
+.titulo-barra-direita .cel-a {
+  display: none;
+  margin: auto;
+  height: 80%;
+  margin-right: 10px;
+}
+.titulo-barra-direita-end {
+  margin-right: 0px !important;
 }
 .titulotexto {
   position: relative;
@@ -65,83 +75,8 @@ body {
   border-radius: 24px 0px;
   overflow: hidden;
 }
-.titulobarradireita p {
+.titulotexto p {
   margin: auto;
-}
-.titulotexto2 {
-}
-.titulotexto3 {
-}
-.foto1 {
-  height: 43px;
-  margin: auto 0px auto 2vw;
-}
-.foto1 img {
-  height: inherit;
-}
-.curriculo {
-  float: left;
-  position: relative;
-  height: inherit;
-  text-align: center;
-  color: black;
-  overflow: hidden;
-}
-.curriculo p {
-  margin: 0px;
-  font-size: 14pt;
-}
-.logo1a {
-  z-index: 21;
-  float: left;
-  display: flex;
-  margin: auto 0px auto 2.2vw;
-  position: relative;
-  top: 50%;
-  transform: translate(0px, -50%);
-}
-.logo1 {
-  width: 115px;
-  height: 38px;
-  overflow: hidden;
-  float: left;
-  animation: fadein 2s;
-}
-.logo1 img {
-  width: inherit;
-}
-.contatom {
-  display: inline-flex;
-  float: right;
-  height: 205px;
-}
-.contato {
-  z-index: 10;
-  float: right;
-  position: relative;
-  width: auto;
-  overflow: hidden;
-  display: inline-flex;
-  margin: auto;
-  margin: 51px 0px 0px 0px;
-}
-.contato a {
-  float: left;
-  margin: 0px 0px 0px 7px;
-}
-.whats {
-  float: left;
-}
-.contato img {
-  float: left;
-  height: 37px;
-  margin-top: 0px;
-}
-.whats p {
-  float: left;
-  font-size: 18pt;
-  color: white;
-  margin: 7px 7px 0px 0px;
 }
 .conteudo1 {
   width: 100%;
@@ -159,7 +94,6 @@ body {
   left: 50%;
   transform: translate(-50%, 0px);
   top: 125px;
-  animation: fadein 2s;
 }
 .textoresponsivo p {
   margin: 0px;
@@ -167,41 +101,21 @@ body {
   font-size: 36pt;
   color: white;
   white-space: nowrap;
+  animation-name: bounceInUp;
+  animation-duration: 1.5s;
 }
 .responsivo {
   height: 51%;
   overflow: hidden;
   margin: 232px auto 0px auto;
-  animation: fadein 2s;
-}
-.textom1 {
-  height: 205px;
-  position: relative;
-  /* align-items: center; */
-  display: inline-flex;
-}
-.textof1 {
-  width: 349px;
-  height: 104px;
-  background-color: #00bfff8c;
-  border-radius: 10px;
-  overflow: hidden;
-  display: inline-block;
-  margin: 26px 0px 0px 0px;
-}
-.texto1 {
-  font-family: "Baloo Paaji 2", cursive;
-  font-size: 29px;
-  margin: 0px auto;
-  color: #16095a;
-  display: table;
-  text-align: center;
+  animation-name: bounceInUp;
+  animation-duration: 2.5s;
 }
 .conteudo2 {
   width: 100%;
   height: 205px;
   background-color: #8ea5cc;
-  display: inline-flex;
+  display: flex;
   color: white;
 }
 .conteudo2barra {
@@ -213,38 +127,69 @@ body {
 }
 .conteudo2m {
   margin: 0px auto;
-  width: 1289px;
+  width: calc(1289px - 400px);
 }
-.textof2 {
-  display: block;
-  text-align: center;
-  margin: 0px auto;
-}
-.texto2 {
-  font-size: 30pt;
-}
-.servicos {
-  display: flex;
-}
-figure.pcentro figcaption {
-  position: absolute;
-  top: 28px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.pcentro {
-  color: white;
-}
-.pcentroimg {
+.textom1 {
+  height: 205px;
   position: relative;
-  width: 100px;
-  height: 56px;
-  background-color: #5e5e5e;
-  border-radius: 142px 51px;
+  /* align-items: center; */
+  display: inline-flex;
 }
-.pcentroimg:hover {
-  transition: 0.4s;
-  box-shadow: inset 0 0 3px white, 0 0 7px #09baef;
+.textof1 {
+  width: 400px;
+  height: 102px;
+  background-color: #2e60ab;
+  /* border-radius: 0px 0px 62px 0px; */
+  overflow: hidden;
+  display: flex;
+  margin: 26px 0px 0px 0px;
+}
+.texto1 {
+  font-family: "Crimson Text", serif;
+  font-size: 29px;
+  margin: auto;
+  color: white;
+  display: table;
+  text-align: center;
+}
+.contatom {
+  display: inline-flex;
+  height: 205px;
+  margin-left: auto;
+  margin-right: 2vw;
+}
+.contato {
+  z-index: 10;
+  float: right;
+  position: relative;
+  width: auto;
+  overflow: hidden;
+  display: inline-flex;
+  margin: auto;
+  margin: 51px 0px 0px 0px;
+}
+.contato a {
+  float: left;
+  margin: 0px 0px 0px 7px;
+}
+.contato img {
+  float: left;
+  height: 37px;
+  margin-top: 0px;
+}
+.whats p {
+  float: left;
+  font-size: 18pt;
+  color: white;
+  margin: 7px 7px 0px 0px;
+}
+.curriculo {
+  float: left;
+  position: relative;
+  height: inherit;
+  text-align: center;
+  color: black;
+  overflow: hidden;
 }
 .conteudofundo {
   width: 100%;
@@ -253,7 +198,4 @@ figure.pcentro figcaption {
   background-image: url(../imagens/fundo1.png);
   background-size: 62%;
   position: fixed;
-}
-.linktextos {
-  display: grid;
 }
