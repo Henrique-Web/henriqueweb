@@ -11,32 +11,8 @@
   display: flex;
 }
 /* Barra-de-titulo-Fim */
-.curriculo {
-}
-.logo1a {
-  margin: auto 0px auto 6.2vw;
-}
-.logo1 {
-  width: 98px;
-}
-.contatom {
-}
-.contato {
-  display: block;
-  width: 48vw;
-  float: right;
-  margin-top: 25px;
-}
-.whats {
-  display: flex;
-  white-space: nowrap;
-}
-.contato img {
-}
-.whats p {
-  margin: 7px 7px 0px 0px;
-  font-size: 5vw;
-}
+
+/* Conteudo 1 */
 .conteudo1 {
   background-size: cover;
 }
@@ -49,6 +25,15 @@
 .responsivo {
   height: 29%;
 }
+/* Conteudo 1-Fim */
+
+/* Conteudo 2 */
+.conteudo2 {
+  display: inline-flex;
+}
+.conteudo2m {
+  display: block;
+}
 .textof1 {
   width: 48vw;
   height: 8vh;
@@ -57,23 +42,27 @@
 .texto1 {
   font-size: 4vw;
 }
-.conteudo2 {
-  display: inline-flex;
-}
-.conteudo2m {
+.contato {
   display: block;
+  width: 48vw;
+  float: right;
+  margin-top: 25px;
 }
-.textof2 {
+.whats {
+  display: flex;
+  white-space: nowrap;
 }
-.texto2 {
+.whats p {
+  margin: 7px 7px 0px 0px;
+  font-size: 5vw;
 }
-.servicos {
+/* Conteudo 2-Fim */
+
+/* Rodope */
+.rodape-cliente p {
+  text-align: center;
 }
-figure.pcentro figcaption {
+.rodape-henrique p {
+  text-align: center;
 }
-.pcentro {
-}
-.pcentroimg {
-}
-.pcentroimg:hover {
-}
+/* Rodape-Fim */
