@@ -12,6 +12,20 @@ document.addEventListener("click", function (event) {
 });
 // Menu-Fim
 
+// Contato
+var contato = document.querySelector("#contato");
+
+document.addEventListener("click", function (event) {
+  if (event.target.closest("#contato1")) {
+    contato.classList.remove("fechado") & contato.classList.add("aberto");
+  } else if (!event.target.closest("#contato")) {
+    contato.classList.remove("aberto") & contato.classList.add("fechado");
+  } else if (event.target.closest("#contatox")) {
+    contato.classList.remove("aberto") & contato.classList.add("fechado");
+  }
+});
+// Contato-Fim
+
 //  Menu-servicos
 var nav = document.querySelector("#alvo2");
 

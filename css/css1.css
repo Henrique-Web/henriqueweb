@@ -25,7 +25,7 @@ a {
 .barra-antes-do-titulo {
   width: 100%;
   height: 10px;
-  background-color: #24375f;
+  background-color: #395d82;
 }
 .barra-titulo-1 {
   background-color: #8ea5ccba;
@@ -82,11 +82,11 @@ a {
 /* Barra-titulo1-Fim */
 .conteudo1 {
   width: 100%;
-  height: 622px;
+  height: 677px;
   background-image: url(../imagens/fundo2.png);
   display: flex;
   background-color: #000514;
-  background-size: auto 622px;
+  background-size: auto 677px;
   background-position: top;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -95,7 +95,7 @@ a {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0px);
-  top: 125px;
+  top: 134px;
 }
 .textoresponsivo p {
   margin: 0px;
@@ -109,7 +109,7 @@ a {
 .responsivo {
   height: 51%;
   overflow: hidden;
-  margin: 232px auto 0px auto;
+  margin: 254px auto 0px auto;
   animation-name: bounceInUp;
   animation-duration: 2.5s;
 }
@@ -123,9 +123,9 @@ a {
 .conteudo2barra {
   width: 100%;
   position: absolute;
-  background-color: #54a2c7;
+  background-color: #50658a;
   height: 10px;
-  top: 632px;
+  top: 687px;
 }
 .conteudo2m {
   margin: 0px auto;
@@ -144,7 +144,7 @@ a {
   /* border-radius: 0px 0px 62px 0px; */
   overflow: hidden;
   display: flex;
-  margin: 26px 0px 0px 0px;
+  margin: 33px 0px 0px 0px;
 }
 .texto1 {
   font-family: "Crimson Text", serif;
@@ -168,7 +168,7 @@ a {
   overflow: hidden;
   display: inline-flex;
   margin: auto;
-  margin: 51px 0px 0px 0px;
+  margin: 66px 0px 0px 0px;
 }
 .contato a {
   float: left;
@@ -193,6 +193,44 @@ a {
   color: black;
   overflow: hidden;
 }
+/* Conteudo 3 */
+.conteudo3 {
+  width: 100%;
+  height: 205px;
+  background-color: #8ea5cc;
+  display: flex;
+  color: white;
+}
+/* Conteudo 3-Fim */
+/* Rodape */
+.rodape-cliente {
+  width: 100%;
+  display: grid;
+  background-color: #50658a;
+  height: 100px;
+}
+.rodape-cliente p {
+  font-size: 13pt;
+  color: white;
+  margin: auto;
+}
+.rodape-cliente-texto1 {
+}
+.rodape-cliente-texto2 {
+}
+.rodape-henrique {
+  width: 100%;
+  display: grid;
+  background-color: #324450;
+  height: 100px;
+}
+.rodape-henrique p {
+  font-size: 13pt;
+  color: white;
+  margin: auto;
+}
+/* Rodape-Fim */
+/* Invisivel ao meu monitor */
 .conteudofundo {
   width: 100%;
   height: 100%;
@@ -201,3 +239,4 @@ a {
   background-size: 62%;
   position: fixed;
 }
+/* Invisivel ao meu monitor-Fim */
